@@ -1,4 +1,18 @@
-input:string + label {
-    color: black;
-    font-weight: bold;
+div[class=calculatePrime] {
+    background-color:royalblue;
+    padding:1px;
+    text-align:left;
+    color:#fff;
+    margin-bottom:1px;
 }
+input[type=text] {
+    width: 100;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding:8px;
+    box-sizing:border-box;
+  }
+  .container {
+	max-width: 1500px;
