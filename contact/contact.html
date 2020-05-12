@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="contact.css">
-    <title>FINAL IS 445 PROJECT</title>
-      <script defer src="/__/firebase/7.5.2/firebase-app.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="contact.css">
+<title>FINAL IS 445 PROJECT</title>
+<script defer src="/__/firebase/7.5.2/firebase-app.js"></script>
 </head>
-<body>
-        <div class = 'content' id = 'content'>
-                <div class = 'headerBar' id = 'headerBar'> 
-                    <div class = 'header'>
-                        <div class="calculatePrime" 
-style="background-color:royalblue;padding:1px;
-text-align:left;color:#fff;margin-bottom:1px;">
-            <span class = 'headerTitle'> Contact Management </span>
-<input type ='button' class ='buttons' id ='index' value ='&#9776 Index'/>
-        <input type ='button' class ='buttons' id ='newtab' value ='&#10010 New'/>
-                    </div><fieldset>
-                    <p text-align="left">New Contact</i></fieldset>
-                    
-                    <fieldset>        
+<body>        
+    <div class = 'content' id = 'content'>
+        <div class = 'headerBar' id = 'headerBar'> 
+            <div class = 'header'>
+                <div class="calculatePrime" 
+                    style="background-color:royalblue;padding:1px;
+                        text-align:left;color:#fff;margin-bottom:1px;">
+                    <span class = 'headerTitle'> Contact Management </span>  
+                        <ul class="navigation"></ul>
+                    <input href="index.html" type = 'button' class = 'buttons' id = 'index' value ='&#9776 index'/>
+                    <input type = 'button' class = 'buttons' id = 'newtab' value = '&#10010 New'/>
+        </div><fieldset>
+    <p text-align="left">New Contact</i></fieldset>
+<fieldset>        
     <div class="container">
-		</header>
-		<main>
-			<section class="container">
-				<div class="table">
-                    
-					<div class="table-header table-row relative bg-primary text-light mb-1">
-						<div class="text-center table-cell">
-						<div class=" table-cell">
-                            <label id="lastname-header" class="h6 sort-by"><span class="d-none mr-1 fas fa-caret-up fa-sm"></span>Name :</label><br>
-                            <input type="text"></input>
-						</div><br>
-						<div class=" table-cell">
-                            <label id="email-header" class="h6 sort-by"><span class="d-none mr-1 fas fa-caret-up fa-sm"></span>Email :</label><br>
-                            <input type="text"></input>
-						</div><br>
-						<div class=" table-cell">
-                            <label id="phone-header" class="h6 sort-by"><span class="d-none mr-1 fas fa-caret-up fa-sm"></span>Phone :</label><br>
-                            <input type="text"></input><br>
-                            <br><button type='button' style="background-color:rgb(20, 216, 20);" class="button" id='submit' align="right" >Submit</button>
-						</div><br>
-                        <div class=" table-cell"></fieldset>
-                            
-                            
-    
-              </form></div>
-            </div>
-            </body></div>
+</header>
+<main>
+<section class="container">
+    <div class="table">
+<label id="name" class="text" required>Name :</label><br>
+<input type="text" placeholder="Name" name="name" required>
+        </div><br>
+<label id="email" class="text" required>Email :</label><br>
+<input type="text" placeholder="Email" name="email" required>
+        </div><br>
+<label id="phonenumber" class="text"required>Phone :</label><br>
+    <input type="text" placeholder="Enter PhoneNumber " name="phoneNumber" required><br>
+<br><button type='button' style="background-color:rgb(20, 216, 20);"class="button" id='myFunction' align="right" >Submit</button>
+    </div><br>
+    </fieldset>
+</form></div>
+</div>
+</body></div>
 <script src="contact.js"></script>
 </html>
